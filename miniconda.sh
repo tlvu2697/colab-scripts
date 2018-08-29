@@ -7,4 +7,5 @@ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O Mi
 sh Miniconda3-latest-Linux-x86_64.sh -b
 
 # Export PATH
-export PATH=/root/miniconda3/bin:$PATH
+echo 'export PATH="/root/miniconda3/bin:$PATH"' >> .bashrc
+source .bashrc
