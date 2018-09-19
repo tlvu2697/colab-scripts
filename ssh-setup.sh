@@ -1,6 +1,4 @@
 #!/bin/bash
-#google colab script
-
 
 #export env path
 echo 'export PATH=/opt/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/tools/node/bin:/tools/google-cloud-sdk/bin' >> /root/.bashrc
