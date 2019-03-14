@@ -5,4 +5,4 @@
 conda create -yn pytorch pip
 
 # Install PyTorch
-conda install -yn pytorch pytorch torchvision cuda80 -c pytorch
+conda install -yn pytorch pytorch torchvision cudatoolkit=9.0 -c pytorch
