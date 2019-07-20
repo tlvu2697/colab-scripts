@@ -13,7 +13,7 @@ apt-key add /var/cuda-repo-9-0-local/7fa2af80.pub
 apt update
 
 #Installation
-apt install cuda -y
+apt install cuda=9.0.176-1 -y
 export PATH=$PATH:/usr/local/cuda-9.0/bin
 export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 
