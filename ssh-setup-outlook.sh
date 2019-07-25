@@ -20,10 +20,10 @@ wget https://raw.githubusercontent.com/nvtu/ngrok/master/sshd_config -O /etc/ssh
 service ssh start
 echo "service started"
 
-#download ngrok 
+#download ngrok
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -O ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
-./ngrok authtoken 47PLDcqXSc13DYfe2Me41_6oFpokFzUFMJZQCpFHjz6
+./ngrok authtoken 3ozwU6NACAMoNEUQAdyjD_6BfzAZuWrpNGQPXvcqKjr
 echo "ngrok stated"
 
 #install libs.
